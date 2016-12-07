@@ -1,3 +1,94 @@
+########################################################################
+# MODDED PART BEGINS HERE
+########################################################################
+
+# Spiritualist Autocracy
+infinite_power_mandate = {
+	icon = "gfx/interface/icons/governments/divine_mandate.dds"
+	has_heir = yes
+	use_regnal_names = yes
+	dynastic_last_names = yes
+	
+	potential = {
+		hidden_trigger = { 
+			NOR = { 
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+				is_country_type = ai_empire
+			} 		
+		}
+	}
+
+	ethics = {
+		OR = {
+			has_ethic = "ethic_spiritualist"
+			has_ethic = "ethic_fanatic_spiritualist"
+		}
+	}
+	
+	modifier = {
+		influence_gain_add = 9
+		tile_resource_food_mult = 5.00
+		tile_resource_energy_mult = 5.00
+		tile_resource_minerals_mult = 5.00
+		tile_resource_engineering_research_mult = 7.00
+		tile_resource_physics_research_mult = 7.00
+		tile_resource_society_research_mult = 7.00
+		pop_environment_tolerance = 3.0
+		pop_growth_req_mult = -0.6
+		leader_skill_levels = 4
+		leader_age = 900
+		species_leader_exp_gain = 0.75
+		pop_migration_speed = 1.5
+		pop_resettlement_cost_mult = -1.00
+		pop_happiness = 2.00
+		pop_other_species_happiness = 0.50
+		pop_ethic_shift = -5.00
+		edict_influence_cost = -0.95
+		edict_length_mult = 3.75
+		garrison_health = 3.0
+		pop_fortification_defense = 1.5
+		all_technology_research_speed = 0.55
+		ship_upkeep_mult = -2.0
+		ship_weapon_range_mult = 0.60
+		ship_sensor_range_mult = 0.75
+		ship_speed_mult = 0.7
+		ship_hitpoints_mult = 0.7
+		ship_evasion_mult = 0.4
+		army_upkeep_mult = -2.0
+		army_damage_mult = 0.8
+		army_morale = 3.0
+		slave_production_output = 0.9
+		slave_food_output = 0.9
+		navy_size_mult = 6.0
+		navy_size_add = 1000
+		country_sector_cap_add  = 1000
+		country_core_sector_system_cap = 1000
+		country_leader_cap = 2000
+		science_ship_survey_speed = 1.75
+		ship_anomaly_fail_risk = -1.75
+		ship_anomaly_generation_chance_mult = 1.45
+		ship_anomaly_research_speed_mult = 2.75
+		ship_shield_hp_mult = 0.65
+		weapon_type_energy_weapon_damage_mult = 0.35
+		weapon_type_energy_weapon_fire_rate_mult = 0.35
+		planet_sensor_range_mult = 0.8
+		planet_building_cost_mult = -0.95
+		building_time_mult = -0.95
+	}
+	
+	ruler_title = RT_ARCHPROPHET
+	ruler_title_female = RT_ARCHPROPHETESS
+	heir_title = HT_PRIEST
+	heir_title_female = HT_PRIESTESS
+}
+
+########################################################################
+# END OF MOD
+########################################################################
+
+
+
 #######################
 # AUTOCRACY
 #######################
