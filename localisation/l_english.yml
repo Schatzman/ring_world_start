@@ -2530,9 +2530,6 @@ l_english:
  # Traits
  ####################################
 
- trait_super_trait:0 "Superior in Nearly Every Way"
- trait_super_trait_desc:0 "§LYou name it, we got it."
-
  trait_rapid_breeders:0 "Rapid Breeders"
  trait_rapid_breeders_desc:0 "§LThis species reproduces at a very rapid rate, increasing population growth.§!\n"
  trait_slow_breeders:0 "Slow Breeders"

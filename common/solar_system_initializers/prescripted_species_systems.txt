@@ -3,69 +3,47 @@
 @base_moon_distance = 10
 
 
-@distance = 50
-@base_moon_distance = 10
 
 #######################################################
 # MAIN SYSTEM
 #######################################################
 
-### Vox System
-vox_system_initializer = {
-	name = "Vox"
-	
+### Ring World System
+ring_world_system_initializer = {
+	name = "Beacon of Singularity"
 	class = "sc_g"
-	asteroids_distance = 120
-	flags = { vox_system vox }
-	
+	asteroids_distance = 400
+	flags = { ring_world_system }
 	usage = custom_empire
-	
+
 	planet = {
 		name = "Vox"
-		class = "pc_g_star"
+		class = star
 		orbit_distance = 0
-		orbit_angle = 1
-		size = 35
-		has_ring = no
 	}
 	
-	planet = {
-		name = "Zirion"
-		class = "pc_molten"
-		orbit_distance = 40
-		orbit_angle = 15
-		size = 10
-		has_ring = no
-	}
+	change_orbit = 45
 	
 	planet = {
-		name = "Raathis"
-		class = "pc_toxic"
-		orbit_distance = 20
-		orbit_angle = 125
-		size = 20
-		has_ring = no
-	}
-
-	#### STARTING PLANET ####
-	
-	planet = {
-		name = "Varath"
-		class = "ideal_planet_class"
-		orbit_distance = 20
-		orbit_angle = 120
-		size = 30
+		class = "pc_ringworld_habitable"
+		name = "Palatial District"
+		orbit_angle = 30
+		orbit_distance = 0
 		starting_planet = yes
 		has_ring = yes
-		entity = "ideal_planet_varath_entity"
+		entity = "ringworld_palatial_district"
 		tile_blockers = none
-		modifiers = none
-		
+		modifiers = none	
 		init_effect = {
-			prevent_anomaly = yes
-		}
-		
-		init_effect = {
+
+			create_cluster = {
+				id = fe1_cluster
+				radius = 80
+				center = this.solar_system
+			}
+
+			prevent_anomaly = y
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_3"
@@ -316,16 +294,329 @@ vox_system_initializer = {
 				}			
 			}
 		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "Ring Section B"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "Ring Section C"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Trade District"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
 		
-		moon = {
-			name = "Vaal"
-			class = "pc_barren_cold"
-			size = 7
-			orbit_distance = 12
-			orbit_angle = 40
-			has_ring = no
-			entity = "cold_barren_planet_vaal_entity"
+		init_effect = {     
+			prevent_anomaly = y     
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 1
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}               
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}                   
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}   
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}                   
+			}           
 		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "Ring Section E"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "Ring Section F"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Industrial District"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes       
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}               
+			}   
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}               
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}                   
+			}                       
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "Ring Section H"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "Ring Section I"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Agrarian District"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = y
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 1
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}   
+			}   
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "Ring Section K"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "Ring Section L"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+
+	planet = {
+		name = "Zirion"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Raathis"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
 	}
 	
 	planet = {
@@ -485,19 +776,19 @@ vox_system_initializer = {
 
 	neighbor_system = {
 		distance = { min = 5 max = 20 } 
-		initializer = "vox_neighbor_ringworld"
+		initializer = "ring_world_neighbor_ringworld"
 	}
 	neighbor_system = {
 		distance = { min = 5 max = 20 } 
-		initializer = "vox_neighbor_t1"
+		initializer = "ring_world_neighbor_t1"
 	}
 	neighbor_system = {
 		distance = { min = 5 max = 20 } 
-		initializer = "vox_neighbor_t1_first_colony"
+		initializer = "ring_world_neighbor_t1_first_colony"
 	}
 	neighbor_system = {
 		distance = { min = 5 max = 20 } 
-		initializer = "vox_neighbor_t1_second_colony"
+		initializer = "ring_world_neighbor_t1_second_colony"
 	}
 }
 
@@ -509,8 +800,8 @@ vox_system_initializer = {
 # ADJACENT SYSTEMS
 #######################################################
 
-# Vox Neighbor Ringworld
-vox_neighbor_ringworld = {
+# Ring World Neighbor Ringworld
+ring_world_neighbor_ringworld = {
 	name = "Beacon of Infinity"
 	class = "sc_g"
 	
@@ -1013,15 +1304,15 @@ vox_neighbor_ringworld = {
 	
 	neighbor_system = {
 		distance = { min = 0 max = 50 }
-		initializer = "vox_ringworld_2"
+		initializer = "ring_world_ringworld_2"
 	}
 	neighbor_system = {
 		distance = { min = 0 max = 50 }
-		initializer = "vox_ringworld_3"
+		initializer = "ring_world_ringworld_3"
 	}
 }
 
-vox_ringworld_2 = {
+ring_world_ringworld_2 = {
 	class = "sc_g"
 	name = "Beacon of Perpetuity"
 	
@@ -1106,7 +1397,7 @@ vox_ringworld_2 = {
 	}
 }
 
-vox_ringworld_3 = {
+ring_world_ringworld_3 = {
 	class = "sc_g"
 	name = "Beacon of Stability"
 	
@@ -1300,8 +1591,8 @@ vox_ringworld_3 = {
 
 #########################################
 
-# Vox Neighbor Tier 1
-vox_neighbor_t1 = {
+# Ring World Neighbor Tier 1
+ring_world_neighbor_t1 = {
 	name = "Dizkitha"
 	class = sc_m
 
@@ -1342,14 +1633,14 @@ vox_neighbor_t1 = {
 	
 	neighbor_system = {
 		distance = { min = 10 max = 30 }    
-		initializer = "vox_neighbor_t2_second_colony"
+		initializer = "ring_world_neighbor_t2_second_colony"
 	}
 }
 
 #########################################
 
 # Neighbor Tier 1 First Colony
-vox_neighbor_t1_first_colony = {    
+ring_world_neighbor_t1_first_colony = {    
 	name = "Regex"
 	class = sc_g
 
@@ -1399,14 +1690,14 @@ vox_neighbor_t1_first_colony = {
 	
 	neighbor_system = {
 		distance = { min = 5 max = 30 } 
-		initializer = "vox_neighbor_t2"
+		initializer = "ring_world_neighbor_t2"
 	}
 }
 
 ######################
 
-# Vox Neighbor Tier 2
-vox_neighbor_t2 = {
+# Ring World Neighbor Tier 2
+ring_world_neighbor_t2 = {
 	name = "Pyriok"
 	class = sc_f
 	asteroids_distance = 70
@@ -1451,7 +1742,7 @@ vox_neighbor_t2 = {
 #########################################
 
 # Neighbor Tier 1 Second Colony
-vox_neighbor_t1_second_colony = {   
+ring_world_neighbor_t1_second_colony = {   
 	name = "Smaug"
 	class = sc_g
 
@@ -1501,14 +1792,14 @@ vox_neighbor_t1_second_colony = {
 	
 	neighbor_system = {
 		distance = { min = 5 max = 30 } 
-		initializer = "vox_neighbor_t2a"
+		initializer = "ring_world_neighbor_t2a"
 	}
 }
 
 ######################
 
-# Vox Neighbor Tier 2A
-vox_neighbor_t2a = {
+# Ring World Neighbor Tier 2A
+ring_world_neighbor_t2a = {
 	name = "Gyrx"
 	class = sc_f
 	asteroids_distance = 70
@@ -1552,8 +1843,8 @@ vox_neighbor_t2a = {
 
 #########################################
 
-# Vox Neighbor Tier 2 Second Colony
-vox_neighbor_t2_second_colony = {
+# Ring World Neighbor Tier 2 Second Colony
+ring_world_neighbor_t2_second_colony = {
 	name = "Valarya"
 	class = sc_a
 
