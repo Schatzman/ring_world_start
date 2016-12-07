@@ -2530,6 +2530,9 @@ l_english:
  # Traits
  ####################################
 
+ trait_super_trait:0 "Superior in Nearly Every Way"
+ trait_super_trait_desc:0 "§LYou name it, we got it."
+
  trait_rapid_breeders:0 "Rapid Breeders"
  trait_rapid_breeders_desc:0 "§LThis species reproduces at a very rapid rate, increasing population growth.§!\n"
  trait_slow_breeders:0 "Slow Breeders"
@@ -5522,6 +5525,10 @@ l_english:
  # Governments
  ####################################
 
+ infinite_power_mandate:0 "Infinite Power Mandate"
+ infinite_power_mandate_desc:0 "§LThis government is a spiritualistic form of autocracy, where the ruler is divine. Organized religion is the way. Also hax.§!"
+ infinite_power_mandate_special:0 "Each Ruler can build a Tomb Monument Building. Also hax"
+
  military_dictatorship:0 "Military Dictatorship"
  military_dictatorship_desc:0 "§LThis government is a militaristic form of autocracy, with the ruler serving as the undisputed head of the military which is firmly in control of the state apparatus.§!"
  military_dictatorship_special:0 "Each Ruler can build an oversized Ship"
@@ -7881,6 +7888,10 @@ l_english:
  sol_system_initializer_DESC:0 "System modeled after Earth's solar system, with adjacent stars.\n\n$system_initializer_DESC$"
  deneb_system_NAME:0 "Deneb System"
  deneb_system_DESC:0 "The Commonwealth of Man's starting solar system.\n\n$system_initializer_DESC$"
+
+ ring_world_system_initializer_NAME:0 "Ring World System"
+ ring_world_system_initializer_DESC:0 "The golden start (sweet h4x)."
+
  CREATE_NEW:0 "Create New"
  BACK_TO_MENU:0 "Back to Menu"
  SELECT_EMPIRE:0 "Select Empire"
