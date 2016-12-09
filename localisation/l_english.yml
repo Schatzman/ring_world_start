@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  ####################################
  # Misc
  ####################################
@@ -5523,8 +5523,8 @@ l_english:
  ####################################
 
  infinite_power_mandate:0 "Infinite Power Mandate"
- infinite_power_mandate_desc:0 "§LThis government is a spiritualistic form of autocracy, where the ruler is divine. Organized religion is the way. Also hax.§!"
- infinite_power_mandate_special:0 "Each Ruler can build a Tomb Monument Building. Also hax"
+ infinite_power_mandate_desc:0 "§LThis government is a spiritualistic form of autocracy, where the ruler is treated as a divine symbol. Organized religion is widely employed in support of the state apparatus.§!"
+ infinite_power_mandate_special:0 "Each Ruler can build a Tomb Monument Building"
 
  military_dictatorship:0 "Military Dictatorship"
  military_dictatorship_desc:0 "§LThis government is a militaristic form of autocracy, with the ruler serving as the undisputed head of the military which is firmly in control of the state apparatus.§!"
@@ -7881,14 +7881,13 @@ l_english:
  system_initializer_DESC:0 "§LDetermines the layout, but not location, of your starting solar system.§!"
  CHANGE_SYSTEM_INITIALZIER:0 "Change"
 
+ vox_system_initializer_NAME:0 "Vox Ring World System"
+ vox_system_initializer_DESC:0 "Hax"
+
  sol_system_initializer_NAME:0 "Sol System"
  sol_system_initializer_DESC:0 "System modeled after Earth's solar system, with adjacent stars.\n\n$system_initializer_DESC$"
  deneb_system_NAME:0 "Deneb System"
  deneb_system_DESC:0 "The Commonwealth of Man's starting solar system.\n\n$system_initializer_DESC$"
-
- ring_world_system_initializer_NAME:0 "Ring World System"
- ring_world_system_initializer_DESC:0 "The golden start (sweet h4x)."
-
  CREATE_NEW:0 "Create New"
  BACK_TO_MENU:0 "Back to Menu"
  SELECT_EMPIRE:0 "Select Empire"
