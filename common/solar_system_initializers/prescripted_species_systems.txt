@@ -733,6 +733,27 @@ vox_system_initializer = {
 			}			
 		}
 	}
+
+	planet = {
+		count = { min = 3 max = 5 }
+		orbit_distance = { min = 70 max = 100}
+		class = ideal_planet_class
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 22 max = 25 }
+	}
+	
+	planet = {
+		count = { min = 5 max = 8 }
+		orbit_distance = { min = 70 max = 280}
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {			
+			count = { min = 0 max = 5 }
+			orbit_distance = { min = 5 max = 8 }
+		}
+	}
+
 	neighbor_system = {
 		distance = { min = 5 max = 20 } 
 		initializer = "vox_neighbor_ringworld"
@@ -1252,7 +1273,27 @@ vox_neighbor_ringworld = {
 		orbit_angle = 30
 		orbit_distance = 0
 	}
+
+	planet = {
+		count = { min = 3 max = 5 }
+		orbit_distance = { min = 70 max = 100}
+		class = ideal_planet_class
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 22 max = 25 }
+	}
 	
+	planet = {
+		count = { min = 5 max = 8 }
+		orbit_distance = { min = 70 max = 280}
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {			
+			count = { min = 0 max = 5 }
+			orbit_distance = { min = 5 max = 8 }
+		}
+	}
+
 	neighbor_system = {
 		distance = { min = 0 max = 50 }
 		initializer = "vox_ringworld_2"
@@ -1366,6 +1407,25 @@ vox_ringworld_2 = {
 		name = "Ring Segment L"
 		orbit_angle = 30
 		orbit_distance = 0
+	}
+	planet = {
+		count = { min = 3 max = 5 }
+		orbit_distance = { min = 70 max = 100}
+		class = ideal_planet_class
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 22 max = 25 }
+	}
+	
+	planet = {
+		count = { min = 5 max = 8 }
+		orbit_distance = { min = 70 max = 280}
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {			
+			count = { min = 0 max = 5 }
+			orbit_distance = { min = 5 max = 8 }
+		}
 	}
 }
 
@@ -1565,6 +1625,25 @@ vox_ringworld_3 = {
 		name = "Ring Section L"
 		orbit_angle = 30
 		orbit_distance = 0
+	}
+	planet = {
+		count = { min = 3 max = 5 }
+		orbit_distance = { min = 70 max = 100}
+		class = ideal_planet_class
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 22 max = 25 }
+	}
+	
+	planet = {
+		count = { min = 5 max = 8 }
+		orbit_distance = { min = 70 max = 280}
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {			
+			count = { min = 0 max = 5 }
+			orbit_distance = { min = 5 max = 8 }
+		}
 	}
 }
 

@@ -5522,9 +5522,15 @@
  # Governments
  ####################################
 
+ # MOD
  infinite_power_mandate:0 "Infinite Power Mandate"
  infinite_power_mandate_desc:0 "§LThis government is a spiritualistic form of autocracy, where the ruler is treated as a divine symbol. Organized religion is widely employed in support of the state apparatus.§!"
  infinite_power_mandate_special:0 "Each Ruler can build a Tomb Monument Building"
+ 
+ divine_infinite_confidence:0 "Divine Infinite Confidence"
+ divine_infinite_confidence_desc:0 "§LThis government is a spiritualistic form of autocracy, where the ruler is treated as a divine symbol. Organized religion is widely employed in support of the state apparatus.§!"
+ divine_infinite_confidence_special:0 "Each Ruler can build a Tomb Monument Building"
+
 
  military_dictatorship:0 "Military Dictatorship"
  military_dictatorship_desc:0 "§LThis government is a militaristic form of autocracy, with the ruler serving as the undisputed head of the military which is firmly in control of the state apparatus.§!"
