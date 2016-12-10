@@ -1658,9 +1658,6 @@ vox_ringworld_3 = {
 
 
 
-
-
-
 ### Sol System
 sol_system_initializer = {
 	name = "Sol"

@@ -156,7 +156,7 @@
  POP_HAS_NO_OWNER:0 "§RThis Pop does not belong to anyone§!"
  RETURNS_COLON:0 "Returns"
  EXPANSION_COST:0 "Expansion Influence Cost"
- EXPANSION_COST_LABEL:0 "Expansion Cost:"
+ EXPANSION_COST_LABEL:1 "Expansion Cost:"
  
  buildable_robot_pop_1:1 "$ROBOT_POP_SPECIES_1$"
  buildable_robot_pop_1_desc:1 "$trait_robotic_1_desc$"
@@ -7887,6 +7887,7 @@
  system_initializer_DESC:0 "§LDetermines the layout, but not location, of your starting solar system.§!"
  CHANGE_SYSTEM_INITIALZIER:0 "Change"
 
+ # MOD
  vox_system_initializer_NAME:0 "Vox Ring World System"
  vox_system_initializer_DESC:0 "Hax"
 
