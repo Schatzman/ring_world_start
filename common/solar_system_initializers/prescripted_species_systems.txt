@@ -40,12 +40,12 @@ vox_system_initializer = {
 				set_building = "building_capital_3"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 				}			
 			}
 			random_tile = {
@@ -53,7 +53,7 @@ vox_system_initializer = {
 				set_building = "building_agri_processing_complex"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}			
@@ -62,7 +62,7 @@ vox_system_initializer = {
 				set_building = "building_agri_processing_complex"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -71,7 +71,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -80,7 +80,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -89,7 +89,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -98,7 +98,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -107,7 +107,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -116,7 +116,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -125,7 +125,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -134,7 +134,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -143,7 +143,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -152,7 +152,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -161,7 +161,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}			
@@ -170,7 +170,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -179,7 +179,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -188,7 +188,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -197,7 +197,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -206,7 +206,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -215,7 +215,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}			
@@ -249,8 +249,7 @@ vox_system_initializer = {
 		tile_blockers = none
 		modifiers = none
 		
-		init_effect = {
-			set_planet_flag = fallen_empire_world		
+		init_effect = {		
 			prevent_anomaly = yes
 			set_owner = ROOT		
 			random_tile = {
@@ -258,12 +257,12 @@ vox_system_initializer = {
 				set_building = "building_capital_2"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 				}				
 			}
 			random_tile = {
@@ -271,7 +270,7 @@ vox_system_initializer = {
 				set_building = "building_agri_processing_complex"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}			
@@ -280,7 +279,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}			
@@ -289,7 +288,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -298,7 +297,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}			
@@ -307,7 +306,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -316,7 +315,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -325,7 +324,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -334,7 +333,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -343,7 +342,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}				
@@ -378,7 +377,6 @@ vox_system_initializer = {
 		modifiers = none
 		
 		init_effect = {
-			set_planet_flag = fallen_empire_world
 			prevent_anomaly = yes
 			set_owner = ROOT		
 			random_tile = {
@@ -386,12 +384,12 @@ vox_system_initializer = {
 				set_building = "building_capital_2"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}	
@@ -400,7 +398,7 @@ vox_system_initializer = {
 				set_building = "building_agri_processing_complex"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}			
@@ -409,7 +407,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -418,7 +416,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -427,7 +425,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -436,7 +434,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -445,7 +443,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -454,7 +452,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -463,7 +461,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}
@@ -472,7 +470,7 @@ vox_system_initializer = {
 				set_building = "building_ancient_factory"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}					
 			}					
@@ -503,7 +501,6 @@ vox_system_initializer = {
 		modifiers = none
 		
 		init_effect = {
-			set_planet_flag = fallen_empire_world
 			prevent_anomaly = yes
 			set_owner = ROOT
 			random_tile = {
@@ -511,12 +508,12 @@ vox_system_initializer = {
 				set_building = "building_capital_2"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 				}				
 			}
 			random_tile = {
@@ -524,7 +521,7 @@ vox_system_initializer = {
 				set_building = "building_agri_processing_complex"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -533,7 +530,7 @@ vox_system_initializer = {
 				set_building = "building_agri_processing_complex"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -542,7 +539,7 @@ vox_system_initializer = {
 				set_building = "building_agri_processing_complex"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -551,7 +548,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}
@@ -560,7 +557,7 @@ vox_system_initializer = {
 				set_building = "building_dark_matter_power_plant"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 			}	
@@ -606,19 +603,19 @@ vox_system_initializer = {
 				set_building = "building_capital_1"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}	
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 				}					
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
 					add_resource = {
 						resource = food
-						amount = 1
+						amount = 3
 						replace = yes
 					}						
 				}
@@ -627,7 +624,7 @@ vox_system_initializer = {
 					set_building = "building_power_plant_1"
 					add_resource = {
 						resource = energy
-						amount = 1
+						amount = 3
 						replace = yes
 					}						
 				}
@@ -636,7 +633,7 @@ vox_system_initializer = {
 					set_building = "building_power_plant_1"
 					add_resource = {
 						resource = energy
-						amount = 1
+						amount = 3
 						replace = yes
 					}						
 				}
@@ -645,7 +642,7 @@ vox_system_initializer = {
 					set_building = "building_mining_network_1"
 					add_resource = {
 						resource = minerals
-						amount = 1
+						amount = 3
 						replace = yes
 					}						
 				}				
@@ -655,7 +652,7 @@ vox_system_initializer = {
 				set_building = "building_hydroponics_farm_1"
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}						
 			}
@@ -664,7 +661,7 @@ vox_system_initializer = {
 				set_building = "building_mining_network_1"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}						
 			}				
@@ -673,7 +670,7 @@ vox_system_initializer = {
 				set_blocker = "tb_failing_infrastructure"
 				add_resource = {
 					resource = engineering_research
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -682,7 +679,7 @@ vox_system_initializer = {
 				set_blocker = "tb_failing_infrastructure"
 				add_resource = {
 					resource = society_research
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -691,7 +688,7 @@ vox_system_initializer = {
 				set_blocker = "tb_failing_infrastructure"
 				add_resource = {
 					resource = physics_research
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -718,7 +715,7 @@ vox_system_initializer = {
 				set_blocker = "tb_decrepit_dwellings"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}
@@ -727,7 +724,7 @@ vox_system_initializer = {
 				set_building = "building_power_plant_1"
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}				
 			}			
@@ -735,7 +732,7 @@ vox_system_initializer = {
 	}
 
 	planet = {
-		count = { min = 3 max = 5 }
+		count = { min = 2 max = 5 }
 		orbit_distance = { min = 70 max = 100}
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
@@ -743,7 +740,7 @@ vox_system_initializer = {
 	}
 	
 	planet = {
-		count = { min = 5 max = 8 }
+		count = { min = 3 max = 7 }
 		orbit_distance = { min = 70 max = 280}
 		
 		change_orbit = @base_moon_distance
@@ -806,19 +803,19 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 				}           
 			}
 			random_tile = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}           
@@ -826,7 +823,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}
@@ -834,7 +831,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}
@@ -842,7 +839,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -850,7 +847,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -858,7 +855,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -866,7 +863,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -874,7 +871,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -882,7 +879,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -890,7 +887,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -898,7 +895,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -906,7 +903,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -914,7 +911,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}           
@@ -922,7 +919,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -930,7 +927,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -938,7 +935,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -946,7 +943,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -954,7 +951,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -962,7 +959,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}           
@@ -994,19 +991,19 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 				}               
 			}
 			random_tile = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}           
@@ -1014,7 +1011,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}           
@@ -1022,7 +1019,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -1030,7 +1027,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}           
@@ -1038,7 +1035,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -1046,7 +1043,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -1054,7 +1051,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -1062,7 +1059,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}
@@ -1070,7 +1067,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}           
@@ -1102,12 +1099,12 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}   
@@ -1115,7 +1112,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}           
@@ -1123,7 +1120,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -1131,7 +1128,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -1139,7 +1136,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -1147,7 +1144,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -1155,7 +1152,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -1163,7 +1160,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -1171,7 +1168,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -1179,7 +1176,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}                   
 			}                       
@@ -1211,19 +1208,19 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 				}               
 			}
 			random_tile = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}
@@ -1231,7 +1228,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}
@@ -1239,7 +1236,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
 			}
@@ -1247,7 +1244,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -1255,7 +1252,7 @@ vox_neighbor_ringworld = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}   
@@ -1275,7 +1272,7 @@ vox_neighbor_ringworld = {
 	}
 
 	planet = {
-		count = { min = 3 max = 5 }
+		count = { min = 2 max = 5 }
 		orbit_distance = { min = 70 max = 100}
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
@@ -1283,7 +1280,7 @@ vox_neighbor_ringworld = {
 	}
 	
 	planet = {
-		count = { min = 5 max = 8 }
+		count = { min = 5 max = 7 }
 		orbit_distance = { min = 70 max = 280}
 		
 		change_orbit = @base_moon_distance
@@ -1305,8 +1302,8 @@ vox_neighbor_ringworld = {
 }
 
 vox_ringworld_2 = {
-	class = "sc_g"
 	name = "Beacon of Perpetuity"
+	class = "sc_g"
 	
 	planet = {
 		class = star
@@ -1316,109 +1313,505 @@ vox_ringworld_2 = {
 	change_orbit = 45
 	
 	planet = {
-		class = "pc_ringworld_habitable_habitable"
-		name = "Ring Segment A"
+		class = "pc_ringworld_habitable"
+		name = "Palatial District"
 		orbit_angle = 30
 		orbit_distance = 0
-	}
-	planet = {
-		class = "pc_ringworld_tech_habitable"
-		name = "Ring Segment B"
-		orbit_angle = 30
-		orbit_distance = 0
-	}
-	planet = {
-		class = "pc_ringworld_seam_habitable"
-		name = "Ring Segment C"
-		orbit_angle = 30
-		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
 		
 		init_effect = {
-			create_ambient_object = {
-				type = "medium_debris_01_object"
-				location = THIS
+
+			create_cluster = {
+				id = fe1_cluster
+				radius = 80
+				center = this.solar_system
 			}
+
+			prevent_anomaly = y
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 3
+				}           
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}           
 		}
 	}
 	planet = {
-		class = "pc_ringworld_habitable_habitable"
-		name = "Ring Segment D"
+		class = "pc_ringworld_tech"
+		name = "Ring Section B"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
 	planet = {
-		class = "pc_ringworld_tech_habitable"
-		name = "Ring Segment E"
+		class = "pc_ringworld_seam"
+		name = "Ring Section C"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
 	planet = {
-		class = "pc_ringworld_seam_habitable"
-		name = "Ring Segment F"
+		class = "pc_ringworld_habitable"
+		name = "Trade District"
 		orbit_angle = 30
 		orbit_distance = 0
-	}
-	planet = {
-		class = "pc_ringworld_habitable_habitable"
-		name = "Ring Section G"
-		orbit_angle = 30
-		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
 		
-		init_effect = {
-			create_ambient_object = {
-				type = "medium_debris_02_object"
-				location = THIS
+		init_effect = {     
+			prevent_anomaly = y     
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 3
+				}               
 			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}                   
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}                   
+			}           
 		}
 	}
 	planet = {
-		class = "pc_ringworld_tech_habitable"
-		name = "Ring Segment H"
+		class = "pc_ringworld_tech"
+		name = "Ring Section E"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
 	planet = {
-		class = "pc_ringworld_seam_habitable"
-		name = "Ring Segment I"
+		class = "pc_ringworld_seam"
+		name = "Ring Section F"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
 	planet = {
-		class = "pc_ringworld_habitable_habitable"
-		name = "Ring Segment J"
+		class = "pc_ringworld_habitable"
+		name = "Industrial District"
 		orbit_angle = 30
 		orbit_distance = 0
-	}
-	planet = {
-		class = "pc_ringworld_tech_habitable"
-		name = "Ring Segment K"
-		orbit_angle = 30
-		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
 		
 		init_effect = {
-			create_ambient_object = {
-				type = "small_debris_object"
-				location = THIS
+			prevent_anomaly = yes       
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}   
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
 			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}                       
 		}
 	}
 	planet = {
-		class = "pc_ringworld_seam_habitable"
-		name = "Ring Segment L"
+		class = "pc_ringworld_tech"
+		name = "Ring Section H"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
 	planet = {
-		count = { min = 3 max = 5 }
-		orbit_distance = { min = 70 max = 100}
+		class = "pc_ringworld_seam"
+		name = "Ring Section I"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Agrarian District"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = y
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 3
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}   
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "Ring Section K"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "Ring Section L"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = { min = 80 max = 100}
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 22 max = 25 }
 	}
 	
 	planet = {
-		count = { min = 5 max = 8 }
-		orbit_distance = { min = 70 max = 280}
+		count = { min = 3 max = 7 }
+		orbit_distance = { min = 80 max = 280}
 		
 		change_orbit = @base_moon_distance
 		
@@ -1441,13 +1834,190 @@ vox_ringworld_3 = {
 	change_orbit = 45
 	
 	planet = {
-		class = "pc_ringworld_habitable_habitable"
-		name = "Palace District"
+		class = "pc_ringworld_habitable"
+		name = "Palatial District"
 		orbit_angle = 30
 		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+
+			create_cluster = {
+				id = fe1_cluster
+				radius = 80
+				center = this.solar_system
+			}
+
+			prevent_anomaly = y
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 3
+				}           
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}           
+		}
 	}
 	planet = {
-		class = "pc_ringworld_tech_habitable"
+		class = "pc_ringworld_tech"
 		name = "Ring Section B"
 		orbit_angle = 30
 		orbit_distance = 0
@@ -1460,80 +2030,47 @@ vox_ringworld_3 = {
 	}
 	planet = {
 		class = "pc_ringworld_habitable"
-		name = "Eternal Bastion"
+		name = "Trade District"
 		orbit_angle = 30
 		orbit_distance = 0
 		tile_blockers = none
 		modifiers = none
 		
-		init_effect = {
-			prevent_anomaly = y         
+		init_effect = {     
+			prevent_anomaly = y     
 			random_tile = {
 				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_2"
 				add_resource = {
 					resource = minerals
-					amount = 1
+					amount = 3
 					replace = yes
 				}
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 				}               
-			}   
+			}
 			random_tile = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = food
-					amount = 1
+					amount = 3
 					replace = yes
 				}               
-			}       
+			}           
 			random_tile = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
-					resource = minerals
-					amount = 1
+					resource = energy
+					amount = 3
 					replace = yes
 				}                   
-			}
+			}           
 			random_tile = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}                   
-			}
-			random_tile = {
-				limit = { has_building = no has_blocker = no }
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}                   
-			}
-			random_tile = {
-				limit = { has_building = no has_blocker = no }
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}                   
-			}
-			random_tile = {
-				limit = { has_building = no has_blocker = no }
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}                   
-			}       
-			random_tile = {
-				limit = { has_building = no has_blocker = no }
-				add_resource = {
-					resource = minerals
-					amount = 1
+					resource = energy
+					amount = 3
 					replace = yes
 				}                   
 			}
@@ -1541,7 +2078,15 @@ vox_ringworld_3 = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
+					replace = yes
+				}   
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -1549,7 +2094,7 @@ vox_ringworld_3 = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
@@ -1557,18 +2102,26 @@ vox_ringworld_3 = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
 					resource = energy
-					amount = 1
+					amount = 3
 					replace = yes
 				}   
 			}
 			random_tile = {
 				limit = { has_building = no has_blocker = no }
 				add_resource = {
-					resource = energy
-					amount = 1
+					resource = food
+					amount = 3
 					replace = yes
-				}   
-			}               
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}                   
+			}           
 		}
 	}
 	planet = {
@@ -1578,57 +2131,200 @@ vox_ringworld_3 = {
 		orbit_distance = 0
 	}
 	planet = {
-		class = "pc_ringworld_seam_habitable"
+		class = "pc_ringworld_seam"
 		name = "Ring Section F"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
 	planet = {
-		class = "pc_ringworld_habitable_habitable"
+		class = "pc_ringworld_habitable"
 		name = "Industrial District"
 		orbit_angle = 30
 		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
 		
 		init_effect = {
-			create_ambient_object = {
-				type = "medium_debris_01_object"
-				location = THIS
+			prevent_anomaly = yes       
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}   
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}           
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
 			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}                   
+			}                       
 		}
 	}
 	planet = {
-		class = "pc_ringworld_tech_habitable"
+		class = "pc_ringworld_tech"
 		name = "Ring Section H"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
 	planet = {
-		class = "pc_ringworld_seam_habitable"
+		class = "pc_ringworld_seam"
 		name = "Ring Section I"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
 	planet = {
-		class = "pc_ringworld_habitable_habitable"
+		class = "pc_ringworld_habitable"
 		name = "Agrarian District"
 		orbit_angle = 30
 		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = y
+			random_tile = {
+				limit = { has_building = no has_blocker = no num_adjacent_tiles > 3 }
+				add_resource = {
+					resource = minerals
+					amount = 3
+					replace = yes
+				}
+				add_resource = {
+					resource = food
+					amount = 3
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = food
+					amount = 3
+					replace = yes
+				}               
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				add_resource = {
+					resource = energy
+					amount = 3
+					replace = yes
+				}   
+			}   
+		}
 	}
 	planet = {
-		class = "pc_ringworld_tech_habitable"
+		class = "pc_ringworld_tech"
 		name = "Ring Section K"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
 	planet = {
-		class = "pc_ringworld_seam_habitable"
+		class = "pc_ringworld_seam"
 		name = "Ring Section L"
 		orbit_angle = 30
 		orbit_distance = 0
 	}
+
 	planet = {
 		count = { min = 3 max = 5 }
-		orbit_distance = { min = 70 max = 100}
+		orbit_distance = { min = 80 max = 180}
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 22 max = 25 }
